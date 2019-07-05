@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {Alert,View,Text,ActivityIndicator,FlatList} from 'react-native';
+import {Alert,View,Text,ActivityIndicator } from 'react-native';
 
 import { Container, Content , List  } from 'native-base';
 
@@ -37,9 +37,12 @@ export default class ListThumbnailExample extends Component {
       </View>
       ) : 
    (
-         <FlatList 
-          renderItem={(item) => {
-          return <DataItem data={item} />
+         <List 
+         dataArray={this.state.data}
+          renderRow={(item) => {
+          return( 
+          <DataItem data={item} />
+          )
           }} 
            />
         )
