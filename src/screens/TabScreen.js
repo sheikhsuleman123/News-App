@@ -19,21 +19,21 @@ export default class TabsScrollableExample extends Component {
           textStyle={{fontSize: 35,color:"white"}} 
           activeTabStyle={{backgroundColor:'#009387'}}
           activeTextStyle={{color:'white'}}
-          heading="TomCruise">
+          heading="General">
             <Tab1 />
           </Tab>
           <Tab tabStyle={{backgroundColor:'#009387'}} 
           activeTabStyle={{backgroundColor:'#009387'}}
           textStyle={{fontSize: 35,color:"white"}}  
           activeTextStyle={{color:'white'}}
-          heading="suleman">
+          heading="Business">
             <Tab2 />
           </Tab>
           <Tab tabStyle={{backgroundColor:'#009387'}}
           textStyle={{fontSize: 35,color:"white"}} 
            activeTabStyle={{backgroundColor:'#009387'}}
            activeTextStyle={{color:'white'}}
-           heading="Kamran">
+           heading="Technology">
             <Tab3 />
           </Tab>
           
